@@ -2,7 +2,6 @@ body{
 	background-color:pink;
 	color:blue;
 	text-align: center;
-	span style="cursor:grab">grab</span><br
  }
  a:link{
  	background-color: purple;
@@ -22,3 +21,9 @@ body{
  	padding: 40px;
  	border-radius:40px;
  }
+ #soccer{
+ 	color: green;
+ }
+ .styleClass{ 
+ 	background-color: Blue
+  }

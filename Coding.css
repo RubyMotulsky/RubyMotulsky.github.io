@@ -16,9 +16,6 @@ body{
  	background-color: black;
  }
  div{
- 	background-color: light green;
- 	color:red;
- 	margin: 30px;
- 	padding: 25px;
- 	border-radius:40px;
+ 	background-color:red;
+ 	
  }

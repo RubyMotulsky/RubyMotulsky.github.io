@@ -1,6 +1,7 @@
 body{ 
 	background-color:pink;
 	color:blue;
+	text-align: center;
  }
  a:link{
  	background-color: purple;
@@ -13,4 +14,11 @@ body{
  a:hover{
  	background-color: Yellow;
  	background-color: black;
+ }
+ div{
+ 	background-color: light green;
+ 	color:red;
+ 	margin: 30px;
+ 	padding: 25px;
+ 	border-radius:40px;
  }

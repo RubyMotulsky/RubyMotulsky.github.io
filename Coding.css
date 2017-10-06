@@ -1,0 +1,16 @@
+body{ 
+	background-color:pink;
+	color:blue;
+ }
+ a:link{
+ 	background-color: purple;
+ 	background-color: White;
+ }
+ a:visited:{ 
+ 	background-color: purple;
+ 	background-color: White;
+  }
+ a:hover{
+ 	background-color: Yellow;
+ 	background-color: black;
+ }

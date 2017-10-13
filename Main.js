@@ -5,5 +5,5 @@ function testjs (){
 }
 
 function shake8ball(){
-	document.getElementById ("the8"). src="images.png";
+	document.getElementById("the8").src="images.jpeg";
 }

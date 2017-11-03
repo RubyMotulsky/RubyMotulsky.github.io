@@ -26,3 +26,21 @@ function shake8ball(){
 }
 //below is code for tic tac toe
 
+//handles x and o turns
+function turn(location){
+	document.getElementById(location).innerHTML = "x";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

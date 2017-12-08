@@ -31,15 +31,17 @@ var character = "o";
 //handles x and o turns
 function turn(location){
 
-	if(character == "x"){
-		character = "o";
-	}
-	else{
-		character = "x";
-	}
+//if no x or o than draw
+	if(document.getElementById(location).innerHTML == ""){
+		if(character == "x"){
+			character = "o";
+		}
+		else{
+			character = "x";
+		}
 
-	document.getElementById(location).innerHTML = character;
-
+		document.getElementById(location).innerHTML = character;
+	}
 }
 //clears x and o
 function clearAll(){
@@ -53,12 +55,6 @@ function clearAll(){
 	document.getElementById("r3c2").innerHTML = "";
 	document.getElementById("r3c3").innerHTML = "";
 }
-
-
-
-
-
-
 
 
 

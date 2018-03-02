@@ -79,6 +79,7 @@ function getType(x,y){
 } 
  
 function createFruit(){ 
+
     var found = false; 
     while(!found && (length < (width-2)*(height-2)+1)){ 
         var fruitX = rand(1,width-1); 
@@ -89,6 +90,7 @@ function createFruit(){
     set(fruitX, fruitY, "fruit"); 
     fX = fruitX; 
     fY = fruitY; 
+    
 } 
  
 /** 

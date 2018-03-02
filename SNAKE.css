@@ -13,11 +13,11 @@ td{
     background-color:blank; 
 } 
 .snake{ 
-    background-color:black; 
+    background-color:pink; 
 } 
 .wall{ 
-    background-color:green; 
+    background-color:purple; 
 } 
 .fruit{ 
-    background-color:red; 
+    background-color:blue; 
 } 

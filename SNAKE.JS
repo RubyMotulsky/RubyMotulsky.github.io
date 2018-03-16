@@ -92,6 +92,11 @@ function createFruit(){
     fY = fruitY; 
     
 } 
+function ReplacingImage(){
+ 
+    document.getElementById("").src="images.png"
+ 
+}
  
 /** 
  * NOTE: notice use of new variable tempdir 

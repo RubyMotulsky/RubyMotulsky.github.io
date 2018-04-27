@@ -79,6 +79,7 @@ function getType(x,y){
 } 
  
 function createFruit(){ 
+
     var found = false; 
     while(!found && (length < (width-2)*(height-2)+1)){ 
         var fruitX = rand(1,width-1); 
@@ -91,6 +92,9 @@ function createFruit(){
     fY = fruitY; 
     
 } 
+function ReplacingImage(){
+ 
+    document.getElementById("").src="images.png"
  
 }
  
@@ -157,6 +161,7 @@ function update(){
     //checks for collision with wall 
     if(snakeX == 0 || snakeX == width-1 || snakeY == 0 || snakeY == height-1) 
         gameOver = true; 
+        
     //checks for collisions with fruit 
     else if(snakeX == fX && snakeY == fY){ 
         //adds 4 to the score 

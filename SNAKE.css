@@ -4,6 +4,9 @@
 } 
 body{ 
     background-color:#000; 
+	background-color:pink;
+	color:blue;
+	text-align: center;
 } 
 td{ 
     width:20px; 
@@ -21,3 +24,9 @@ td{
 .fruit{ 
     background-color:blue;
 } 
+#container{
+ 	background-color:white;
+ 	margin: 50px;
+ 	padding: 40px;
+ 	border-radius:40px;
+ }
